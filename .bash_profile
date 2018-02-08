@@ -16,7 +16,7 @@ alias flushdns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder"
 # Git stuff
 # -------------------------------------------------------------------
 
-# Use hub to make git more powerful
+# Use hub to make git more powerful (https://hub.github.com/)
 alias git=hub
 
 # Tab-to-complete commands for Git and Hub
