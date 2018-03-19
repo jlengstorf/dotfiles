@@ -1,26 +1,21 @@
-.babel.json
-.bash_history
-.CF*
-.config
-.d*
-.gitconfig
-.gnupg*
-.jspm
-.n*
-.op
-.s*
-.Trash
-.v*
-.yarnrc
-Applications
-De*
-Do*
-Dr*
-dev
-G*
-L*
-M*
-P*
-.code_profiles/*/data/B*
-.code_profiles/*/data/C*
-.code_profiles/*/data/storage.json
+# Ignore everything...
+/*
+
+# ...except for these lil’ buddies...
+!/.gitignore
+!/.bash_profile
+!/.bash_completion
+!/.bash_prompt
+
+# ...and my VS Code settings...
+!.vscode/
+.vscode/*
+!.vscode/settings.json
+
+# ...and my custom VS Code settings for screencasting.
+.code_profiles/screencast/*
+!.code_profiles/screencast/data
+.code_profiles/screencast/data/*
+!.code_profiles/screencast/data/User
+.code_profiles/screencast/data/User/*
+!.code_profiles/screencast/data/User/settings.json
