@@ -24,6 +24,13 @@ source ~/.bash_completion/git.bash
 source ~/.bash_completion/hub.sh
 
 # -------------------------------------------------------------------
+# GPG stuff
+# -------------------------------------------------------------------
+
+# This is so we can do nerdy GPG stuff and pretend to be hackers
+export GPG_TTY=$(tty)
+
+# -------------------------------------------------------------------
 # Customize the prompt
 # -------------------------------------------------------------------
 
@@ -44,3 +51,10 @@ export PS1='\n\[\e[0;32m\]@jlengstorf: \[\e[0;33m\]\w\[\e[0m\] $(__git_ps1 " (%s
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# -------------------------------------------------------------------
+# VS Code Configuration setup
+# -------------------------------------------------------------------
+
+# For screencasting, use stripped down settings with large text.
+alias teach="code --user-data-dir ~/.code_profiles/screencast/data"
