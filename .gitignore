@@ -6,6 +6,7 @@
 !/.bash_profile
 !/.bash_completion
 !/.bash_prompt
+!/.gatsby_shortlinks.sh
 !README.md
 
 # ...and my VS Code settings...

@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   "workbench.startupEditor": "none",
   "editor.minimap.enabled": false,
   "explorer.confirmDragAndDrop": false,
@@ -10,11 +10,17 @@
   "files.associations": {
     "*.css": "postcss"
   },
-  "gitlens.keymap": "alternate",
+  "gitlens.keymap": "none",
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
+  "editor.hover": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
   "prettier.singleQuote": true,
-  "workbench.colorTheme": "Material Theme",
+  "workbench.colorTheme": "Night Owl",
   // Controls the font family.
   "editor.fontFamily": "Operator Mono",
   // Controls the font size.
@@ -34,5 +40,17 @@
   },
   "workbench.colorCustomizations": {},
   "workbench.statusBar.visible": false,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "workbench.sideBar.location": "left"
 }

@@ -1,3 +1,6 @@
+# Load env vars for the system
+source ~/.env
+
 # -------------------------------------------------------------------
 # Mac helper aliases
 # -------------------------------------------------------------------
@@ -5,6 +8,9 @@
 # Show/hide hidden files (starting with a `.`)
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+# Save me from myself
+alias rm=trash
 
 # Delete auto-generated `.DS_Store` files
 alias deleteDSFiles="find . -name '.DS_Store' -type f -delete"
@@ -74,3 +80,10 @@ export NVM_DIR="$HOME/.nvm"
 
 # For screencasting, use stripped down settings with large text.
 alias teach="code --user-data-dir ~/.code_profiles/screencast/data"
+
+# -------------------------------------------------------------------
+# Gatsby Stuff
+# -------------------------------------------------------------------
+
+# Add a helper for creating Gatsby short links.
+source ~/.gatsby_shortlinks.sh
