@@ -13,7 +13,6 @@
   "gitlens.keymap": "none",
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
-  "editor.hover": false,
   "editor.quickSuggestions": {
     "other": false,
     "comments": false,
@@ -52,5 +51,9 @@
     "suppressShowKeyBindingsNotice": true
   },
   "gitlens.historyExplorer.enabled": true,
-  "workbench.sideBar.location": "left"
+  "workbench.sideBar.location": "left",
+  "editor.hover.enabled": false,
+  "editor.parameterHints": false,
+  "editor.snippetSuggestions": "none",
+  "editor.tabCompletion": false
 }
