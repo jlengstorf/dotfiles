@@ -25,6 +25,9 @@ alias flushdns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder"
 # Use hub to make git more powerful (https://hub.github.com/)
 alias git=hub
 
+# Shortcut to checkout master and pull from upstream
+alias gu="git checkout master && git pull upstream master"
+
 # Tab-to-complete commands for Git and Hub
 source ~/.bash_completion/git.bash
 source ~/.bash_completion/hub.sh
