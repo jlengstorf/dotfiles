@@ -16,7 +16,7 @@ status200Regex=".*(\"status\":\"active\").*"
 # - https://gatsbyjs.org
 # - https://github.com/gatsbyjs
 gatsbylink() {
-  domain="gatsby.app"
+  domain="gatsby.dev"
   destination=$1
   shortlink=$2
 
