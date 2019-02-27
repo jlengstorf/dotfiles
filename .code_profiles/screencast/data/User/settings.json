@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 2,
   "workbench.startupEditor": "none",
   "editor.minimap.enabled": false,
   "explorer.confirmDragAndDrop": false,
@@ -19,7 +19,7 @@
     "strings": false
   },
   "prettier.singleQuote": true,
-  "workbench.colorTheme": "Night Owl",
+  "workbench.colorTheme": "Visual Studio Light",
   // Controls the font family.
   "editor.fontFamily": "Operator Mono",
   // Controls the font size.
@@ -55,5 +55,7 @@
   "editor.hover.enabled": false,
   "editor.parameterHints": false,
   "editor.snippetSuggestions": "none",
-  "editor.tabCompletion": false
+  "editor.tabCompletion": false,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true
 }
