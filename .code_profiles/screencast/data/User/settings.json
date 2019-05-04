@@ -19,7 +19,6 @@
     "strings": false
   },
   "prettier.singleQuote": true,
-  "workbench.colorTheme": "Visual Studio Light",
   // Controls the font family.
   "editor.fontFamily": "Operator Mono",
   // Controls the font size.
@@ -38,7 +37,7 @@
     "themeColours": "Default"
   },
   "workbench.colorCustomizations": {},
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": false,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
@@ -57,5 +56,6 @@
   "editor.snippetSuggestions": "none",
   "editor.tabCompletion": false,
   "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true
+  "gitlens.views.lineHistory.enabled": true,
+  "workbench.colorTheme": "Night Owl"
 }
