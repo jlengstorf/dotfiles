@@ -57,5 +57,6 @@
   "editor.tabCompletion": false,
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
-  "workbench.colorTheme": "Night Owl"
+  "workbench.colorTheme": "Night Owl",
+  "window.newWindowDimensions": "inherit"
 }
