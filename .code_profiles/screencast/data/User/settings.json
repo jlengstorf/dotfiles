@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 3,
   "workbench.startupEditor": "none",
   "editor.minimap.enabled": false,
   "explorer.confirmDragAndDrop": false,
@@ -30,7 +30,7 @@
   // Controls if file decorations should use badges.
   "explorer.decorations.badges": false,
   // Sets the terminal font size.
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 18,
   // Apparently line-height works differently in the terminal.
   "terminal.integrated.lineHeight": 1.45,
   "materialTheme.cache.workbench.settings": {

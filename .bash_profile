@@ -28,6 +28,9 @@ alias git=hub
 # Shortcut to checkout master and pull from upstream
 alias gu="git checkout master && git pull upstream master"
 
+# Clean, compact git status
+alias s="git status -sb"
+
 # Tab-to-complete commands for Git and Hub
 source ~/.bash_completion/git.bash
 source ~/.bash_completion/hub.sh
@@ -85,6 +88,14 @@ export NVM_DIR="$HOME/.nvm"
 alias teach="code --user-data-dir ~/.code_profiles/screencast/data"
 
 # -------------------------------------------------------------------
+# Video Stuff
+# -------------------------------------------------------------------
+
+# Convert a video clip to an MP3.
+# I use this to make sound effects for Learn With Jason.
+source ~/.convert-to-audio.sh
+
+# -------------------------------------------------------------------
 # Gatsby Stuff
 # -------------------------------------------------------------------
 
@@ -96,3 +107,16 @@ if [ -f '/Users/jlengstorf/google-cloud-sdk/path.bash.inc' ]; then . '/Users/jle
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/jlengstorf/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/jlengstorf/google-cloud-sdk/completion.bash.inc'; fi
+
+# Sharp I hate your stupid Python-ey guts
+export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+
+# For the Android SDK, we need these in our path
+PATH="/Users/jlengstorf/Library/Android/sdk:${PATH}"
+PATH="/Users/jlengstorf/Library/Android/sdk/platform-tools:${PATH}"
+
+export PATH
