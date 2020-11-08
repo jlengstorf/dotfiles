@@ -13,5 +13,9 @@ disabled = true
 [git_branch]
 symbol = " "
 
+[nodejs]
+format = "using [$symbol$version]($style) "
+
 [package]
+format = "[$symbol$version]($style) "
 symbol = " "
