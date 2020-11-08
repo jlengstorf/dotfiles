@@ -15,6 +15,9 @@ alias rm=trash
 # Delete auto-generated `.DS_Store` files
 alias deleteDSFiles="find . -name '.DS_Store' -type f -delete"
 
+# VERY IMPORTANT WORK
+alias corgo="cargo"
+
 # Flush the DNS cache (helpful if you’re playing with local DNS)
 alias flushdns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder"
 
@@ -113,3 +116,13 @@ PATH="/Users/jlengstorf/Library/Android/sdk:${PATH}"
 PATH="/Users/jlengstorf/Library/Android/sdk/platform-tools:${PATH}"
 
 export PATH
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/jlengstorf/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/Users/jlengstorf/Downloads/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/jlengstorf/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/jlengstorf/Downloads/google-cloud-sdk/completion.bash.inc'; fi
+
+# custom prompt via https://starship.rs
+eval "$(starship init bash)"
+

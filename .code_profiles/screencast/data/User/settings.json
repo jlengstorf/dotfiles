@@ -38,7 +38,7 @@
   },
   "workbench.colorCustomizations": {},
   "workbench.statusBar.visible": true,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -58,5 +58,20 @@
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
   "workbench.colorTheme": "Night Owl",
-  "window.newWindowDimensions": "inherit"
+  "window.newWindowDimensions": "inherit",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontFamily": "'Operator Mono', 'SauceCodePro NF'",
+  "terminal.integrated.minimumContrastRatio": 4.5
 }

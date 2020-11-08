@@ -10,6 +10,11 @@
 !/.gatsby_shortlinks.sh
 !README.md
 
+# starship config (https://starship.rs)
+!.config/
+.config/*
+!.config/starship.toml
+
 # ...and my VS Code settings...
 !.vscode/
 .vscode/*
@@ -22,3 +27,6 @@
 !.code_profiles/screencast/data/User
 .code_profiles/screencast/data/User/*
 !.code_profiles/screencast/data/User/settings.json
+
+# Local Netlify folder
+.netlify
