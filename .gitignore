@@ -5,6 +5,7 @@
 !/.gitignore
 !/.bash_profile
 !/.bashrc
+!/.zshrc
 !/.bash_completion
 !/.bash_prompt
 !/.gatsby_shortlinks.sh
