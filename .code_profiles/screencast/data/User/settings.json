@@ -73,5 +73,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "terminal.integrated.fontFamily": "'Operator Mono', 'SauceCodePro NF'",
-  "terminal.integrated.minimumContrastRatio": 4.5
+  "terminal.integrated.minimumContrastRatio": 4.5,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
