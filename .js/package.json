@@ -1,0 +1,13 @@
+{
+  "name": "js-scripts",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "esm": "^3.2.25",
+    "globals": "file:globals",
+    "node-fetch": "^2.6.1"
+  },
+  "esm": {
+    "await": true
+  }
+}

@@ -5,6 +5,8 @@
 !/.gitignore
 !/.bash_profile
 !/.bashrc
+!/.js
+.js/node_modules
 !/.zshrc
 !/.bash_completion
 !/.bash_prompt

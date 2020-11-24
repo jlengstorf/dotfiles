@@ -1,0 +1,3 @@
+#!/usr/bin/env -S NODE_PATH="/Users/jlengstorf/.js/node_modules" ESM_OPTIONS='{mode:"all",cache:0}' /Users/jlengstorf/.nvm/versions/node/v14.15.0/bin/node -r esm -r globals
+
+console.log(await fetch($1));

@@ -83,6 +83,8 @@ alias teach="code --user-data-dir ~/.code_profiles/screencast/data"
 # I use this to make sound effects for Learn With Jason.
 source ~/.convert-to-audio.sh
 
+path+=~/.js 
+
 # -------------------------------------------------------------------
 # Link Shortener
 # -------------------------------------------------------------------
