@@ -126,3 +126,4 @@ if [ -f '/Users/jlengstorf/Downloads/google-cloud-sdk/completion.bash.inc' ]; th
 # custom prompt via https://starship.rs
 eval "$(starship init bash)"
 
+source "$HOME/.cargo/env"
