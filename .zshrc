@@ -79,10 +79,6 @@ alias teach="code --user-data-dir ~/.code_profiles/screencast/data"
 # Video Stuff
 # -------------------------------------------------------------------
 
-# Convert a video clip to an MP3.
-# I use this to make sound effects for Learn With Jason.
-source ~/.convert-to-audio.sh
-
 path+=~/.js 
 
 # -------------------------------------------------------------------
@@ -96,3 +92,5 @@ export PATH
 # custom prompt via https://starship.rs
 eval "$(starship init zsh)"
 
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"

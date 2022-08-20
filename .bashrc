@@ -127,3 +127,5 @@ if [ -f '/Users/jlengstorf/Downloads/google-cloud-sdk/completion.bash.inc' ]; th
 eval "$(starship init bash)"
 
 source "$HOME/.cargo/env"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
