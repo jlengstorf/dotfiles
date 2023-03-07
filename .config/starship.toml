@@ -11,9 +11,10 @@ truncate_to_repo = false
 disabled = true
 
 [git_branch]
-symbol = " "
+symbol = " "
 
 [nodejs]
+symbol = " "
 format = "using [$symbol$version]($style) "
 
 [ruby]
