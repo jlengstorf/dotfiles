@@ -16,6 +16,9 @@ symbol = " "
 [nodejs]
 format = "using [$symbol$version]($style) "
 
+[ruby]
+disabled = true
+
 [package]
 format = "[$symbol$version]($style) "
 symbol = " "

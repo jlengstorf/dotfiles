@@ -18,6 +18,10 @@
 .config/*
 !.config/starship.toml
 
+# yabai and skid
+!.config/yabai
+!.config/skhd
+
 # ...and my VS Code settings...
 !.vscode/
 .vscode/*
