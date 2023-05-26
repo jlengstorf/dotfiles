@@ -26,7 +26,8 @@ sudo yabai --load-sa
 # If you want yabai to stop touching your stuff, you can use rules like these to
 # match an app and/or window title and turn off window management.
 
-yabai -m rule --add app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app=OBS manage=off
 yabai -m rule --add app="^System Settings$" title=".*" manage=off
 yabai -m rule --add app="^Activity Monitor$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
@@ -39,7 +40,7 @@ yabai -m rule --add app=Superhuman space=3
 yabai -m rule --add app=Spotify space=4
 
 # for streaming I need a lil more chaos
-yabai -m config --space 5 layout float
+yabai -m config --space 6 layout float
 
 
 # The `bsp` setting is what makes windows auto-tile. If you don’t want that,
@@ -49,11 +50,19 @@ yabai -m config layout                      bsp
 
 # By default, tiled windows are smushed together. If you don’t want that, you
 # can set padding values to give windows a little room to breathe.
-yabai -m config top_padding                 30 # MBP notch already adds ~30
+yabai -m config top_padding                 0 # MBP notch already adds ~30
 yabai -m config bottom_padding              30
 yabai -m config left_padding                30
 yabai -m config right_padding               30
 yabai -m config window_gap                  30
+
+# For screen recording, this fits in my current OBS setup
+# yabai -m config top_padding                  5 # MBP notch already adds ~30
+# yabai -m config bottom_padding             108
+# yabai -m config left_padding                 5
+# yabai -m config right_padding                5
+# yabai -m config window_gap                   5
+
 
 # floating windows are always on top (default: off)
 yabai -m config window_topmost on
